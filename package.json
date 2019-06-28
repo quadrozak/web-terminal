@@ -52,10 +52,10 @@
     ],
     "preferGlobal": "false",
     "bin": {
-        "web-terminal": "./bin/run.js"
+        "web-terminal": "./bin/run.js -h 'bash bin/zak.sh'"
     },
     "scripts": {
-        "start": "node ./bin/run.js",
+        "start": "node ./bin/run.js -h 'bash bin/zak.sh'",
         "test": "node test"
     },
     "bugs": {
